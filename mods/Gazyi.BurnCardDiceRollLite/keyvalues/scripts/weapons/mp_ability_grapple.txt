@@ -1,0 +1,38 @@
+WeaponData
+{
+	// This file MUST contains all mod indexes to work as server-side only mod.
+	// Icons and cooldown timers will not work without installation on client!
+	Mods
+	{
+		// Long Grapple
+		spree_lvl1_grapple
+		{
+			"grapple_maxLength"			"2200"
+			"grapple_maxLengthVert"		"2200"
+		}
+		spree_lvl2_grapple
+		{
+		}
+		spree_lvl3_grapple
+		{
+		}
+		pas_power_cell
+		{
+		}
+		pm0
+		{
+		}
+		pm1
+		{
+		}
+		pm2
+		{
+		}
+		amped_tacticals
+		{
+		}
+		all_grapple
+		{
+		}
+	}
+}

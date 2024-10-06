@@ -1,0 +1,74 @@
+{
+    "Name": "Gazyi.BurnCardDiceRollLite",
+    "Description": "Adds custom boosts to Dice Roll. Server-side version.",
+    "Version": "1.0.0",
+    "LoadPriority": 2,
+    "Dependencies": 
+    {
+        "SERVERTRANSLATION": "Gazyi.MultiLanguageStrings"
+    },
+    "Scripts":
+    [
+        {
+            "Path": "burnmeter/sv_burnmeter_cards.gnut",
+            "RunOn": "SERVER && MP",
+            "ServerCallback": 
+            {
+                "After": "SvBurnMeterCards_Init"
+            }
+        }
+    ],
+    "ConVars":
+    [
+        {
+            "Name": "sv_bc_use_weights",
+            "DefaultValue": "0",
+            "HelpString": "Use reward weights when calculating random boost. Default weights are 1 for all boosts, you need to modify script to change them."
+        },
+        {
+            "Name": "sv_bc_add_vanilla_boosts",
+            "DefaultValue": "1",
+            "HelpString": "Add vanilla boosts to random boost table. \nConVar changes will be applied on next map."
+        },
+        {
+            "Name": "sv_bc_replace_tactical_abilities",
+            "DefaultValue": "1",
+            "HelpString": "Add boosted Pilot tactical abilities to random boost table. They'll replace current Pilot ability. \nNote: Some abilities can show up incorrectly without installing mod on client side! \nConVar changes will be applied on next map."
+        },
+        {
+            "Name": "sv_bc_replace_pilot_weapons",
+            "DefaultValue": "0",
+            "HelpString": "Add custom Pilot weapons to random boost table. They'll replace current Pilot primary. \nConVar changes will be applied on next map."
+        },
+        {
+            "Name": "sv_bc_replace_titan_weapons",
+            "DefaultValue": "0",
+            "HelpString": "Add Amped Titan weapons to random boost table. \nNote: Many Titan weapons don't have burn mods and will not be Amped! \nConVar changes will be applied on next map."
+        },
+        {
+            "Name": "sv_bc_force_rtd_boost",
+            "DefaultValue": "1",
+            "HelpString": "All boosts will be converted to Dice Roll."
+        },
+        {
+            "Name": "sv_bc_announce_boost",
+            "DefaultValue": "1",
+            "HelpString": "Create server announcements for rolled boosts."
+        },
+        {
+            "Name": "sv_bc_autouse_deployable",
+            "DefaultValue": "1",
+            "HelpString": "Automatically throw ordinance and place turrets on boost use."
+        },
+        {
+            "Name": "sv_bc_npc_drone_cloak_self",
+            "DefaultValue": "1",
+            "HelpString": "Cloak drones will cloak itself."
+        },
+        {
+            "Name": "sv_bc_npc_drone_cloak_with_targets",
+            "DefaultValue": "0",
+            "HelpString": "Drone self-cloak behavior. \n0 = Cloak itself when no cloak targets. \n1 = Cloak itself when have cloak targets."
+        }
+    ]
+}

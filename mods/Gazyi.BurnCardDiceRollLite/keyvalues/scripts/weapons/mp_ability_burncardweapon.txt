@@ -1,0 +1,54 @@
+WeaponData
+{
+	Mods
+	{
+		burn_card_weapon_mod
+		{
+		}
+		burnmeter_amped_weapons
+		{
+		}
+		burnmeter_doublexp
+		{
+			"hud_icon" 		"rui/menu/common/dbl_xp_icon"
+			"readymessage" 	"#DOUBLE_XP"
+			"readyhint" 	"#DOUBLE_XP_DESC"
+		}
+		burnmeter_random_foil
+		{
+			"hud_icon" 		"rui/menu/boosts/boost_icon_random"
+			"readymessage" 	"#BURNMETER_RANDOM_FOIL"
+			"readyhint" 	"#BURNMETER_RANDOM_FOIL_DESC"
+		}
+		burnmeter_phase_rewind
+		{
+		}
+		burnmeter_ap_turret_weapon
+		{
+		}
+		burnmeter_at_turret_weapon
+		{
+		}
+		burnmeter_maphack
+		{
+		}
+		burnmeter_emergency_battery
+		{
+		}
+		burnmeter_smart_pistol
+		{
+		}
+		burnmeter_radar_jammer
+		{
+		}
+		burnmeter_nuke_titan
+		{
+		}
+		burnmeter_harvester_shield
+		{
+		}
+		burnmeter_rodeo_grenade
+		{
+		}
+	}
+}

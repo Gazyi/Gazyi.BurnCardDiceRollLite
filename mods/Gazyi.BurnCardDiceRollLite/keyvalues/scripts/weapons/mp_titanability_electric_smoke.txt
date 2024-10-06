@@ -1,0 +1,16 @@
+WeaponData
+{
+	Mods
+	{
+		// This file MUST contains all mod indexes to work as server-side only mod.
+		maelstrom
+		{
+		}
+		burn_mod_titan_smoke
+		{
+			"hud_icon"			"rui/titan_loadout/tactical/titan_tactical_electric_smoke_menu"
+			"fire_rate"   		"*1.25"
+			"is_burn_mod"		"1"
+		}
+	}
+}

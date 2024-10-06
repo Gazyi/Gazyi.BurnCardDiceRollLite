@@ -1,0 +1,33 @@
+WeaponData
+{
+	// This file MUST contains all mod indexes to work as server-side only mod.
+	Mods
+	{
+		// Super Sonar
+		bc_arc_refill
+		{
+			"grenade_ignition_time" 						"*2.0"
+			"is_burn_mod"									"1"
+		}
+		// Jammer
+		burn_mod_emp_grenade
+		{
+		}
+		// Spree mods have arc indicators, but ammo is set very low - doesn't show regen time on client.
+		spree_lvl1_grenade_sonar
+		{
+		}
+		spree_lvl2_grenade_sonar
+		{
+		}
+		spree_lvl3_grenade_sonar
+		{
+		}
+		pas_power_cell
+		{
+		}
+		amped_tacticals
+		{
+		}
+	}
+}

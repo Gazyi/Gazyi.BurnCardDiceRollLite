@@ -1,0 +1,34 @@
+WeaponData
+{
+	// This file MUST contains all mod indexes to work as server-side only mod.
+	// Icons and cooldown timers will not work without installation on client!
+	Mods
+	{
+		pas_power_cell
+		{
+		}
+		dev_mod_low_recharge
+		{
+		}
+		amped_tacticals
+		{
+		}
+		bc_holoshift
+		{
+			"hud_icon" "rui/menu/boosts/boost_icon_holopilot"
+			"ammo_clip_size"   					"100"
+			"ammo_default_total"   				"100"
+			"ammo_stockpile_max"				"100"
+			"allow_empty_fire"					"1"
+			"regen_ammo_refill_start_delay" 	"2.0"
+		}
+		bc_holomimic
+		{
+			"ammo_clip_size"   					"100"
+			"ammo_default_total"   				"100"
+			"ammo_stockpile_max"				"100"
+			"fire_rate"   						"1"
+			"regen_ammo_refill_rate"			"3.2" // 32 seconds - regen time from original
+		}
+	}
+}

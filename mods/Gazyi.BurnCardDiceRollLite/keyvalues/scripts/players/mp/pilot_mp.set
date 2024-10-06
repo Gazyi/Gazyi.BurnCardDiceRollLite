@@ -1,0 +1,28 @@
+"pilot_mp"
+{
+	"crouch"
+	{
+		PoseMods
+		{
+			// 20% faster from TF1 speed
+			bc_fast_movespeed
+			{
+				speed				107
+			}
+		}
+
+	}
+
+	"stand"
+	{
+		PoseMods
+		{
+			// 20% faster from TF1 speed
+			bc_fast_movespeed
+			{
+				speed				217
+				sprintspeed			324
+			}
+		}
+	}
+}

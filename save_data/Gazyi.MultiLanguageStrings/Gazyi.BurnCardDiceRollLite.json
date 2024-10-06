@@ -1,0 +1,441 @@
+{
+    "Mod":"Gazyi.BurnCardDiceRollLite",
+    "#BC_SUPER_CLOAK_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with longer lasting Cloak.",
+        "french":"Remplace la capacité tactique de pilote par un camouflage plus durable.",
+        "german":"Ersetzt Piloten-Taktikfähigkeit durch Tarnung mit längerer Dauer.",
+        "spanish":"Reemplaza tu función táctica de piloto por un camuflaje de mayor duración.",
+        "italian":"Sostituisci l'abilità tattica del pilota con un occultamento di durata maggiore.",
+        "japanese":"パイロットの戦闘アビリティを効果時間の長いクロークに変更する。",
+        "polish":"Zastępuje umiejętność taktyczną długotrwałym maskowaniem.",
+        "russian":"Заменяет тактическое умение Пилота маскировкой продолжительного действия.",
+        "tchinese":"以較持久的隱形模式為鐵馭戰術技能。",
+        "portuguese":"Substitui sua Habilidade Tática de Piloto por uma Camuflagem que dura mais tempo.",
+        "mspanish":"Reemplaza tu función táctica de piloto por un camuflaje de mayor duración."
+    },
+    "#BC_CLOAK_FOREVER_DESC":
+    {
+        "english":"Permanently cloaked as a Pilot, in addition to having your Pilot Tactical Ability.",
+        "french":"Camouflage permanent s'ajoutant à votre capacité tactique de pilote.",
+        "german":"Als Pilot permanent getarnt, zusätzlich zu deiner Piloten-Taktikfähigkeit.",
+        "spanish":"Camuflaje permanente para piloto. Se suma a tu función táctica de piloto.",
+        "italian":"Pilota permanentemente occultato, in aggiunta all'abilità tattica del pilota.",
+        "japanese":"パイロットが常時クローク化し、パイロットの戦闘アビリティも 使用できる。",
+        "polish":"Oprócz umiejętności taktycznej jako pilot zyskujesz trwałe pole maskujące.",
+        "russian":"Постоянная маскировка в роли Пилота, в дополнение к вашему тактическому умению.",
+        "tchinese":"身為鐵馭永遠保持隱形狀態，同時擁有另一個戰術技能。",
+        "portuguese":"Camuflado permanentemente como Piloto, em adição à sua Habilidade Tática de Piloto.",
+        "mspanish":"Camuflaje permanente para piloto. Se suma a tu función táctica de piloto."
+    },
+    "#BC_SUPER_STIM_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with longer lasting Stim.",
+        "french":"Remplace la capacité tactique de pilote par un stimulant plus durable.",
+        "german":"Ersetzt Piloten-Taktikfähigkeit durch Stim mit längerer Dauer.",
+        "spanish":"Reemplaza tu función táctica de piloto por un estimulante de mayor duración.",
+        "italian":"Sostituisci l'abilità tattica del pilota con stimolanti più durevoli.",
+        "japanese":"パイロットの戦闘アビリティを効果時間の長い興奮剤に変更する。",
+        "polish":"Zastępuje umiejętność taktyczną pilota stymulantem o długotrwałym działaniu.",
+        "russian":"Заменияет тактическое умение Пилота стимулятором продолжительного действия.",
+        "tchinese":"以較持久的興奮藥劑為鐵馭戰術技能。",
+        "portuguese":"Substitui sua Habilidade Tática de Piloto por um Estimulante que dura mais tempo.",
+        "mspanish":"Reemplaza tu función táctica de piloto por un estimulante de mayor duración."
+    },
+    "#BC_STIM_FOREVER_DESC":
+    {
+        "english":"Permanently stimmed as a Pilot, in addition to having your Pilot Tactical Ability.",
+        "french":"Stimulation permanente s'ajoutant à votre capacité tactique de pilote.",
+        "german":"Als Pilot permanent stimuliert, zusätzlich zu deiner Piloten-Taktikfähigkeit.",
+        "spanish":"Estimulante permanente para piloto. Se añade a tu función táctica de piloto.",
+        "italian":"Pilota permanentemente stimolato, in aggiunta all'abilità tattica del pilota.",
+        "japanese":"パイロットが常時、興奮剤を投与された状態になる。パイロットの戦闘アビリティも使用できる。",
+        "polish":"Oprócz umiejętności taktycznej jako pilot jesteś stale pod działaniem stymulantów.",
+        "russian":"Постоянный стимулятор в роли Пилота, в дополнение к вашему тактическому умению.",
+        "tchinese":"身為鐵馭永遠保持興奮狀態，同時擁有另一個戰術技能。",
+        "portuguese":"Estimulado permanentemente como Piloto, em adição à sua Habilidade Tática de Piloto.",
+        "mspanish":"Estimulante permanente para piloto. Se añade a tu función táctica de piloto."
+    },
+    "#BC_FAST_MOVESPEED_DESC":
+    {
+        "english":"Faster Pilot movement speed.",
+        "french":"Vitesse de déplacement du pilote accrue.",
+        "german":"Höhere Bewegungsgeschwindigkeit für Piloten.",
+        "spanish":"El piloto se mueve más rápido.",
+        "italian":"Maggiore velocità di movimento del pilota.",
+        "japanese":"パイロットの移動速度が上がる。",
+        "polish":"Zwiększona szybkość ruchu pilota.",
+        "russian":"Увеличение скорости перемещения Пилота.",
+        "tchinese":"提升鐵馭移動速度。",
+        "portuguese":"Maior velocidade de movimento do Piloto.",
+        "mspanish":"El piloto se mueve más rápido."
+    },
+    "#BC_AUTO_SONAR_DESC":
+    {
+        "english":"You automatically generate Active Radar Pulses periodically.",
+        "french":"Génère automatiquement des impulsions radar à activation périodique.",
+        "german":"Du erzeugst automatisch regelmäßige aktive Radarimpulse.",
+        "spanish":"Generas de forma automática pulsos de radar activo periódicos.",
+        "italian":"Generi automaticamente impulsi radar attivi periodici.",
+        "japanese":"定期的にアクティブレーダーパルスを自動で発生する。",
+        "polish":"Co jakiś czas automatycznie wysyłasz aktywne impulsy radarowe.",
+        "russian":"Вы автоматически генерируете регулярные радарные импульсы.",
+        "tchinese":"自動定期產生主動雷達脈波。",
+        "portuguese":"Você gera pulsos de sonar automaticamente de forma periódica.",
+        "mspanish":"Generas de forma automática pulsos de radar activo periódicos."
+    },
+    "#BC_MINIMAP_SCAN_DESC":
+    {
+        "english":"Reveal all enemies on the minimap every 10 seconds.",
+        "french":"Affiche tous les ennemis sur la minicarte toutes les dix secondes.",
+        "german":"Zeigt alle 10 Sekunden sämtliche Gegner auf der Minikarte an.",
+        "spanish":"Muestra a todos los enemigos en el minimapa cada 10 segundos.",
+        "italian":"Rivela tutti i nemici sulla minimappa ogni 10 secondi.",
+        "japanese":"10秒間隔で全ての敵をミニマップ上に表示する。",
+        "polish":"Co 10 sekund pokazuje wszystkich wrogów na radarze.",
+        "russian":"Отображение всех врагов на мини-карте каждые 10 секунд.",
+        "tchinese":"每10秒在迷你地圖上揭露所有敵人位置。",
+        "portuguese":"Revela todos os inimigos no minimapa a cada 10 segundos.",
+        "mspanish":"Muestra a todos los enemigos en el minimapa cada 10 segundos."
+    },
+    "#BC_PILOT_WARNING_DESC":
+    {
+        "english":"There is an audible warning when enemy players are nearby.",
+        "french":"Un avertissement sonore vous indique quand un joueur ennemi approche.",
+        "german":"Wenn feindliche Spieler in der Nähe sind, ertönt ein Warnsignal.",
+        "spanish":"Suena una alarma cuando hay jugadores enemigos cerca.",
+        "italian":"Ricevi un avviso acustico quando si avvicinano piloti nemici.",
+        "japanese":"敵プレイヤーが近くにいると警告音が鳴る。",
+        "polish":"Kiedy wrogi gracz pojawi się w pobliżu, usłyszysz alarm.",
+        "russian":"Звуковой сигнал оповещает о наличии вражеских игроков.",
+        "tchinese":"附近有敵方玩家時將出聲警示。",
+        "portuguese":"Um som avisa quando jogadores inimigos se aproximam de você.",
+        "mspanish":"Suena una alarma cuando hay jugadores enemigos cerca."
+    },
+    "#BC_DOUBLE_AGENT_DESC":
+    {
+        "english":"Grunts, Spectres, Auto-Titans, and Turrets ignore you.",
+        "french":"Les soldats, les Spectres, les Auto-Titans et les tourelles vous ignorent.",
+        "german":"Frontsoldaten, Spectres, Auto-Titans und Geschütze ignorieren dich.",
+        "spanish":"Los soldados, espectros, autotitanes y torretas te ignoran.",
+        "italian":"Soldati semplici, Spectre, Auto-Titan e torrette ti ignorano.",
+        "japanese":"兵士、スペクター、オートタイタン、タレットに発見されなくなる。",
+        "polish":"Piechurzy, Widma, auto-Tytany i wieżyczki nie zwracają na ciebie uwagi.",
+        "russian":"Пехотинцы, Спектры, авто-Титаны и турели игнорируют вас.",
+        "tchinese":"步兵、幽靈戰士、自動泰坦及砲塔都對您視若無睹。",
+        "portuguese":"Soldados, Espectros, Autotitãs e Torres ignoram você.",
+        "mspanish":"Los soldados, espectros, autotitanes y torretas te ignoran."
+    },
+    "#BC_CONSCRIPTION_DESC":
+    {
+        "english":"Nearby friendly Grunts fight for you - their kills count toward your score.",
+        "french":"Tous les soldats alliés à proximité se battent pour vous. Leurs victimes augmentent votre score.",
+        "german":"Verbündete Frontsoldaten in der Nähe kämpfen für dich - und ihre Kills bringen dir Punkte.",
+        "spanish":"Los soldados aliados cercanos luchan para ti: sus eliminaciones se suman a tu puntuación.",
+        "italian":"Le uccisioni dei soldati semplici alleati nei paraggi si sommano al tuo punteggio.",
+        "japanese":"近くの兵士を徴用する。彼らが倒した敵はプレイヤーのキル数にカウントされる。",
+        "polish":"Pobliscy piechurzy walczą po twojej stronie. Zabici przez nich wrogowie idą na twoje konto.",
+        "russian":"Убийства ближайших дружеских пехотинцев засчитываются вам.",
+        "tchinese":"附近的友軍步兵將助您作戰－他們的擊殺數也會計入您的分數。",
+        "portuguese":"Soldados aliados próximos lutam por você. Quando eles eliminam inimigos, você recebe os pontos.",
+        "mspanish":"Los soldados aliados cercanos luchan para ti: sus eliminaciones se suman a tu puntuación."
+    },
+    "#BC_WIFI_SPECTRE_HACK_DESC":
+    {
+        "english":"Automatically capture nearby enemy Spectres.",
+        "french":"S'attaque automatiquement aux Spectres à proximité.",
+        "german":"Übernimmt automatisch feindliche Spectres in der Nähe.",
+        "spanish":"Captura automáticamente espectros enemigos cercanos.",
+        "italian":"Cattura automaticamente gli Spectre nemici nelle vicinanze.",
+        "japanese":"自動的に近くにいる敵のスペクターを捕らえる。",
+        "polish":"Automatycznie przechwytuje pobliskie Widma wroga.",
+        "russian":"Автоматический взлом ближайших вражеских Спектров.",
+        "tchinese":"自動奪取附近敵方幽靈戰士。",
+        "portuguese":"Captura automaticamente Espectros inimigos próximos.",
+        "mspanish":"Captura automáticamente espectros enemigos cercanos."
+    },
+    "#BC_PLAY_SPECTRE_DESC":
+    {
+        "english":"You are a Spectre.",
+        "french":"Vous êtes un Spectre.",
+        "german":"Du bist ein Spectre.",
+        "spanish":"Eres un espectro.",
+        "italian":"Sei uno Spectre.",
+        "japanese":"あなたはスペクター。",
+        "polish":"Stajesz się Widmem.",
+        "russian":"Вы - Спектр.",
+        "tchinese":"您是幽靈戰士。",
+        "portuguese":"Você se torna um Espectro.",
+        "mspanish":"Eres un espectro."
+    },
+    "#BC_REMATCH_DESC":
+    {
+        "english":"Respawn where you died.",
+        "french":"Vous régénère sur les lieux de votre mort.",
+        "german":"Respawn am Ort deines Todes.",
+        "spanish":"Reapareces donde te eliminaron.",
+        "italian":"Torna in gioco nel punto in cui eri morto.",
+        "japanese":"死亡した場所にリスポーンする。",
+        "polish":"Odradzasz się w miejscu śmierci.",
+        "russian":"Возрождение на месте гибели.",
+        "tchinese":"在喪命地點重生。",
+        "portuguese":"Reapareça onde morreu.",
+        "mspanish":"Reapareces donde te eliminaron."
+    },
+    "#BC_REMATCH_WARNING":
+    {
+        "english":"Rematch incoming:",
+        "french":"Revanche entrante:",
+        "german":"Revanche kommt an:",
+        "spanish":"Revancha entrante:",
+        "italian":"Rivincita in arrivo:",
+        "japanese":"再戦着信:",
+        "polish":"Rewanż:",
+        "russian":"Ожидается реванш:",
+        "tchinese":"复赛传入:",
+        "portuguese":"Revanche recebida:",
+        "mspanish":"Revanche entrante:"
+    },
+    "#BC_FREE_BUILD_TIME_1_DESC":
+    {
+        "english":"Adds 15%% to Titan Meter or Titan Core Charge.",
+        "russian":"+15%% к индикатору Титана или ядра Титана."
+    },
+    "#BC_FREE_BUILD_TIME_2_DESC":
+    {
+        "english":"Adds 30%% to Titan Meter or Titan Core Charge.",
+        "russian":"+30%% к индикатору Титана или ядра Титана."
+    },
+    "#BC_HUNT_SOLDIER_DESC":
+    {
+        "english":"Titan Meter earned from killing Grunts is increased by 100%%.",
+        "russian":"Заполнение индикатора Титана за убийство пехоты увеличено на 100%%."
+    },
+    "#BC_HUNT_SPECTRE_DESC":
+    {
+        "english":"Titan Meter earned from killing Spectres is increased by 100%%.",
+        "russian":"Заполнение индикатора Титана за убийство Спектров увеличено на 100%%."
+    },
+    "#BC_HUNT_PILOT_DESC":
+    {
+        "english":"Titan Meter earned from killing Pilots is increased by 100%%.",
+        "russian":"Заполнение индикатора Титана за убийство Пилотов увеличено на 100%%."
+    },
+    "#BC_FAST_BUILD_2_DESC":
+    {
+        "english":"Titan Meter earned during combat is increased by 100%%.",
+        "russian":"Заполнение индикатора Титана в бою увеличено на 100%%."
+    },
+    "#BC_SMART_PISTOL_M2_DESC":
+    {
+        "english":"Replaces Primary Weapon with Smart Pistol MK6. Limited Ammo.",
+        "russian":"Заменяет основное оружие смарт-пистолетом. Ограниченный боезапас."
+    },
+    "#BC_SHOTGUN_DBLBARREL_DESC":
+    {
+        "english":"Replaces Primary Weapon with short Double-Barreled Shotgun.",
+        "russian":"Заменяет основное оружие двуствольным обрезом."
+    },
+    "#BC_EXTRA_DASH_DESC":
+    {
+        "english":"Your next Titan will have increased Dash Capacity.",
+        "french":"Votre Titan embarque une capacité de propulsion optimisée.",
+        "german":"Dein nächster Titan hat eine gesteigerte Jetschubkapazität.",
+        "spanish":"Tu siguiente titán dispondrá de mayor capacidad de impulso.",
+        "italian":"Il tuo prossimo Titan avrà una capacità superiore di scatto.",
+        "japanese":"タイタンのダッシュ能力が上昇する。",
+        "polish":"Twój następny Tytan będzie miał zwiększoną manewrowość.",
+        "russian":"У вашего следующего Титана будет увеличенное количество рывков.",
+        "tchinese":"您的下一具泰坦將有提升衝刺容量。",
+        "portuguese":"Seu próximo Titã terá uma maior capacidade de Arrancada.",
+        "mspanish":"Tu siguiente titán dispondrá de mayor capacidad de impulso."
+    },
+    "#BC_CORE_CHARGED_DESC":
+    {
+        "english":"Your Titan has a pre-charged Titan Core ability.",
+        "french":"Votre Titan embarque une compétence principale préchargée.",
+        "german":"Dein Titan hat eine bereits aufgeladene Titan-Systemfähigkeit.",
+        "spanish":"Tu próximo titán llega con la función del núcleo de titán precargada.",
+        "italian":"Il tuo Titan ha un'abilità Nucleo precaricata.",
+        "japanese":"自機のタイタンコア能力が最初からチャージされた状態になる。",
+        "polish":"Twój Tytan ma naładowaną umiejętność rdzenia.",
+        "russian":"Вашему Титану сразу доступно умение ядра Титана.",
+        "tchinese":"您的泰坦有預充泰坦核心技能。",
+        "portuguese":"Seu Titã já vem com o Núcleo de Habilidade carregado.",
+        "mspanish":"Tu próximo titán llega con la función del núcleo de titán precargada."
+    },
+    "#BC_NUCLEAR_CORE_DESC":
+    {
+        "english":"Your Titan Eject causes an extended nuclear explosion.",
+        "french":"L'éjection de Titan provoque une explosion nucléaire étendue.",
+        "german":"Dein Ausstieg aus einem Titan löst eine größere Nuklearexplosion aus.",
+        "spanish":"Eyectarse del titán produce una explosión nuclear más potente.",
+        "italian":"La tua espulsione dal Titan provoca un'esplosione nucleare estesa.",
+        "japanese":"タイタンから脱出時に広範囲の爆発が起こる。",
+        "polish":"Kiedy następnym razem się katapultujesz, wywołasz eksplozję nuklearną.",
+        "russian":"При катапультировании из Титана происходит мощный ядерный взрыв.",
+        "tchinese":"您的泰坦彈射造成了大範圍核爆。",
+        "portuguese":"Ao ejetar do Titã, ele causa uma explosão nuclear maior.",
+        "mspanish":"Eyectarse del titán produce una explosión nuclear más potente."
+    },
+    "#BC_TITAN_AMPED_WEAPONS":
+    {
+        "english":"Titan Amped Weapons",
+        "russian":"Усиленное оружие Титана"
+    },
+    "#BC_TITAN_AMPED_WEAPONS_DESC":
+    {
+        "english":"Permanent Amped Titan weapons and abilities.",
+        "russian":"Усиление оружия и снаряжения Титана."
+    },
+    "#BC_SUPER_GRENADE_SONAR":
+    {
+        "english":"Amped Pulse Blade",
+        "russian":"Усиленный пульсирующий клинок"
+    },
+    "#BC_SUPER_GRENADE_SONAR_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with longer lasting Pulse Blade.",
+        "russian":"Заменяет тактическое умение Пилота пульсирующим клинком продолжительного действия."
+    },
+    "#BC_GRENADE_SONAR_JAMMER":
+    {
+        "english":"Pulse Blade Jammer",
+        "russian":"Пульсирующий клинок с генератором помех"
+    },
+    "#BC_GRENADE_SONAR_JAMMER_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with Pulse Blade with radar jammer.",
+        "russian":"Заменяет тактическое умение Пилота пульсирующим клинком с постановщиком помех."
+    },
+    "#BC_HOLOPILOT_SHIFT":
+    {
+        "english":"Holoshift",
+        "russian":"Голо-сдвиг"
+    },
+    "#BC_HOLOPILOT_SHIFT_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with special Holo Pilot. Pilot can swap position with your decoy.",
+        "russian":"Заменяет тактическое умение Пилота особым Голопилотом. Пилот может поменятся местами с Голопилотом."
+    },
+    "#BC_HOLOPILOT_MIMIC":
+    {
+        "english":"Holomimic",
+        "russian":"Голо-имитатор"
+    },
+    "#BC_HOLOPILOT_MIMIC_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with special Holo Pilot. Decoys mimic your movement.",
+        "russian":"Заменяет тактическое умение Пилота особым Голопилотом. Голопилот воспроизводит движение пилота."
+    },
+    "#BC_SUPER_SHIFTER":
+    {
+        "english":"Amped Phase Shift",
+        "russian":"Усиленный фазовый сдвиг"
+    },
+    "#BC_SUPER_SHIFTER_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with longer lasting Phase Shift.",
+        "russian":"Заменяет тактическое умение Пилота фазовым сдвигом продолжительного действия."
+    },
+    "#BC_LONG_GRAPPLE":
+    {
+        "english":"Long Grapple",
+        "russian":"Длинный канат"
+    },
+    "#BC_LONG_GRAPPLE_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with longer Grapple.",
+        "russian":"Заменяет тактическое умение Пилота крюком-кошкой с увеличенной дальностью броска."
+    },
+    "#BC_SUPER_GRAPPLE_DESC":
+    {
+        "english":"Replaces Pilot Tactical Ability with Grapple with more charges.",
+        "russian":"Заменяет тактическое умение Пилота крюком-кошкой с увеличенным количеством бросков."
+    },
+    "#BC_PHASE_LIFESAVER":
+    {
+        "english":"Phase Lifesaver",
+        "russian":"Фазовый спаситель"
+    },
+    "#BC_PHASEREWIND_LIFESAVER_DESC":
+    {
+        "english":"Second chance! Activate Phase Rewind when Pilot is on the verge of death.",
+        "russian":"Второй шанс! Активация Фазового возврата при получении смертельного урона Пилотом."
+    },
+    "#BC_PHASESHIFT_LIFESAVER_DESC":
+    {
+        "english":"Second chance! Activate Phase Shift when Pilot is on the verge of death.",
+        "russian":"Второй шанс! Активация Фазового сдвига при получении смертельного урона Пилотом."
+    },
+    "#BC_MOBILE_SHIELD":
+    {
+        "english":"Mobile Hard Cover",
+        "russian":"Щит пилота"
+    },
+    "#BC_MOBILE_SHIELD_DESC":
+    {
+        "english":"Creates mobile Hard Cover in front of Pilot.",
+        "russian":"Создаёт силовой щит, который двигается вместе с Пилотом."
+    },
+    "#BC_MOBILE_AMPED_WALL":
+    {
+        "english":"Mobile A-Wall",
+        "russian":"Мобильная усиленная стена"
+    },
+    "#BC_MOBILE_AMPED_WALL_DESC":
+    {
+        "english":"Creates mobile Amped Wall in front of Pilot.",
+        "russian":"Создаёт усиленную стену, которая двигается вместе с Пилотом."
+    },
+    "#BC_ARC_TRAP_DESC":
+    {
+        "english":"Replaces Ordnance Weapon with infinite Arc Traps.",
+        "russian":"Заменяет спецоружие бесконечными дуговыми ловушками."
+    },
+    "#BURNMETER_EMERGENCY_TITAN_NOCORE_DESC":
+    {
+        "english":"Summon your Emergency Titan with Warpfall kit. Titan has halved health and no core.",
+        "russian":"Вызывает срочный спуск Титана с половиной прочности. Умение ядра отсутствует."
+    },
+    "#BC_TITANRIDER_AMPED_RIDER_DESC":
+    {
+        "english":"Friendly Pilots riding your Titan will have Amped Weapons.",
+        "russian":"Усиление оружия союзных Пилотов, находящихся на вашем Титане."
+    },
+    "#BC_TITAN_ARC_FIELD":
+    {
+        "english":"Arc Field",
+        "russian":"Дуговое поле"
+    },
+    "#BC_TITAN_ARC_FIELD_DESC":
+    {
+        "english":"Your Titan generates an electrical field capable of draining shields.",
+        "russian":"Ваш Титан создает электрическое поле, вызывающее утечку энергии щитов."
+    },
+    "#BC_DROPPOD":
+    {
+        "english":"Droppod",
+        "russian":"Десантная капсула"
+    },
+    "#BC_GRUNT_DROPPOD_DESC":
+    {
+        "english":"Summon a Grunt squad to fight on your behalf.",
+        "russian":"Вызван взвод пехоты, который будет сражаться на вашей стороне."
+    },
+    "#BC_SPECTRE_DROPPOD_DESC":
+    {
+        "english":"Summon a Spectre squad to fight on your behalf.",
+        "russian":"Вызван взвод Спектров, который будет сражаться на вашей стороне."
+    },
+    "#BC_STALKER_DROPPOD_DESC":
+    {
+        "english":"Summon a Stalker squad to fight on your behalf.",
+        "russian":"Вызван взвод Ловцов, который будет сражаться на вашей стороне."
+    },
+    "#BC_CLOAK_DRONE_DESC":
+    {
+        "english":"Summon a Cloak Drone follower.",
+        "russian":"Вызван Дрон-маскировщик сопровождения."
+    }
+}
