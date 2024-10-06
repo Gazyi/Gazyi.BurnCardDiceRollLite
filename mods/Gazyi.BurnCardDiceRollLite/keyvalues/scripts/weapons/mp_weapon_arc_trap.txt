@@ -3,14 +3,14 @@ WeaponData
 	Mods
 	{
 		burn_card_weapon_mod
-        {
+		{
 
-        }
+		}
 		// This handles cooldown. Requires client-side install only if players want to see progress.
 		bc_arc_trap
 		{
 			"fire_duration"                                 "--14.9" // at least 0.1s fire_duration required for it can consume ammo properly
-        	"regen_ammo_refill_rate"						"13"
+			"regen_ammo_refill_rate"						"13"
 			//"cooldown_type"								"ammo_deployed" // Can't replace cooldown type with mods
 			"ammo_display"									"bar"
 			"ammo_clip_size"   								"300"
