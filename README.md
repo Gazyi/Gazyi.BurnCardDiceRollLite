@@ -1,7 +1,7 @@
 # Gazyi.BurnCardDiceRollLite
 Server-side* Northstar mod that adds more effects for Dice Roll boost.
 
-* Some HUD-related stuff ( icons, cooldown ) can be out of sync without client installation. Clients can either install and enable this mod, or servers can disable boosts that have this problem.
+* Some HUD-related stuff ( icons, cooldown ) can be out of sync without client installation. You can either tell clients to install and enable this mod, or disable boosts that have this problem on server side.
 
 ## Requirements
 - [**MultiLanguageStrings**](https://github.com/Gazyi/Gazyi.MultiLanguageStrings)
