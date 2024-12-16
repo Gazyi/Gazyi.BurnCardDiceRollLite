@@ -64,9 +64,14 @@ void function SvBurnMeterCards_Init()
 	AddCallback_OnPlayerRespawned( BurnCardOnPilotRespawn )
 	AddCallback_OnTitanGetsNewTitanLoadout( BurnCardOnNewTitanLoadout )
 	AddCallback_OnTitanDoomed( BurnCardOnTitanDoomed )
+	AddCallback_GameStateEnter( eGameState.WinnerDetermined, BurnCardCleanupOnRoundEnd )
 	AddOnRodeoStartedCallback( BurnCardOnRodeoStart )
 	AddOnRodeoEndedCallback( BurnCardOnRodeoEnd )
-	SetApplyBatteryCallback( BurnCardOnApplyBattery )
+	#if NORTHSTARCUSTOM
+	AddOnApplyBatteryCallback( BurnCardOnApplyBattery )
+	#else
+	SetApplyBatteryCallback( BurnCardOnApplyBattery ) // Only one "Apply Battery" callback is allowed! It will override lower priority mods!
+	#endif
 	// Fix for crash in lobby.
 	if ( !IsLobby() )
 	{
@@ -258,8 +263,8 @@ void function SvBurnMeterCards_Init()
 	AddCustomBurnReward("bc_phase_lifesaver_shift", 1, "#BC_PHASE_LIFESAVER", "#BC_PHASESHIFT_LIFESAVER_DESC", $"", PlayerUsesPhaseLifesaverShift)
 	// Personal Shield - Done
 	AddCustomBurnReward("bc_particle_shield", 1, "#BC_MOBILE_SHIELD", "#BC_MOBILE_SHIELD_DESC", $"", PlayerUsesPersonalShield)
-	// Mobile A-Wall - Done
-	AddCustomBurnReward("bc_mobile_amped_wall", 1, "#BC_MOBILE_AMPED_WALL", "#BC_MOBILE_AMPED_WALL_DESC", $"", PlayerUsesMobileAmpedWall)
+	// Mobile A-Wall - Doesn't actually amp weapons?
+	//AddCustomBurnReward("bc_mobile_amped_wall", 1, "#BC_MOBILE_AMPED_WALL", "#BC_MOBILE_AMPED_WALL_DESC", $"", PlayerUsesMobileAmpedWall)
 	// ----------------- Custom - Weapons ------------------
 	// Amped Ordinance - Done
 	AddCustomBurnReward("bc_amped_grenades", 1, "#PATCH_ORDNANCE", "#TITAN_UPGRADE_AMPED_ORDNANCE", $"", PlayerUsesAmpedGrenades)
@@ -744,6 +749,23 @@ void function AddPoseModLifeLong( entity player, string posemod )
 	}
 }
 // ======================= CALLBACKS =======================
+// Round End callback
+void function BurnCardCleanupOnRoundEnd()
+{
+	// Clean up some npcs
+	RemoveLeftoverCloakedDrones()
+	// Clean up boost flags
+	foreach ( player in GetPlayerArray() )
+	{
+		player.s.bc_rematch <- false
+		//player.s.bc_spectre_camo <- false
+		//player.s.RemovePosModOnDeath <- []
+		//player.s.bc_serverflags <- 0
+		//player.s.bc_sonar_forever <- false
+		//player.s.bc_lifesave_shift <- false
+		//player.s.bc_lifesave_rewind <- false
+	}
+}
 // First spawn callback
 void function BurnCardOnPlayerFirstSpawn( entity player )
 {
@@ -1221,6 +1243,9 @@ void function BurnCardOnRodeoEnd( entity rider, entity titan )
 // Apply battery to Titan callback
 void function BurnCardOnApplyBattery( entity rider, entity titan, entity battery )
 {
+	#if DEV
+	printt( "[BurnCardDiceRoll] BurnCardOnApplyBattery called!!!" )
+	#endif
 	// Check for infinite cloak
 	if ( IsPilot( rider ) && rider.cloakedForever && !IsCloaked( rider ) )
 	{
