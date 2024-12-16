@@ -45,7 +45,7 @@ Server-side* Northstar mod that adds more effects for Dice Roll boost.
 * Custom - Pilot Abilities
     - Amped Pulse Blade - Replaces Pilot Tactical Ability with longer lasting Pulse Blade.
     - Pulse Blade Jammer - Replaces Pilot Tactical Ability with Pulse Blade with radar jammer.
-    - Holoshift - Replaces Pilot Tactical Ability with special Holo Pilot. Pilot can swap position with your decoy.
+    - Holoshift - Replaces Pilot Tactical Ability with special Holo Pilot. Pilot can swap position with own decoy.
     - Holomimic - Replaces Pilot Tactical Ability with special Holo Pilot. Decoys mimic your movement.
     - Amped Phase Shift - Replaces Pilot Tactical Ability with longer lasting Phase Shift.
     - Long Grapple - Replaces Pilot Tactical Ability with longer Grapple.
@@ -53,7 +53,6 @@ Server-side* Northstar mod that adds more effects for Dice Roll boost.
     - Phase Lifesaver - Activate Phase Rewind when Pilot is on the verge of death.
     - Phase Lifesaver - Activate Phase Shift when Pilot is on the verge of death.
     - Mobile Hard Cover - Creates mobile Hard Cover in front of Pilot.
-    - Mobile A-Wall - Creates mobile Amped Wall in front of Pilot.
 * Custom - Titan related
     - Regen Booster - Your Titan is able to regenerate its bodyshield at a faster rate than normal.
     - Emergency Titan - Summon your Emergency Titan with Warpfall kit. Titan has halved health and no core.

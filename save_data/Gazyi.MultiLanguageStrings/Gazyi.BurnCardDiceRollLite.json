@@ -315,7 +315,7 @@
     },
     "#BC_HOLOPILOT_SHIFT_DESC":
     {
-        "english":"Replaces Pilot Tactical Ability with special Holo Pilot. Pilot can swap position with your decoy.",
+        "english":"Replaces Pilot Tactical Ability with special Holo Pilot. Pilot can swap position with own decoy.",
         "russian":"Заменяет тактическое умение Пилота особым Голопилотом. Пилот может поменятся местами с Голопилотом."
     },
     "#BC_HOLOPILOT_MIMIC":
