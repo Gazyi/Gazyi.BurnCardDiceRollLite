@@ -59,21 +59,21 @@ void function AddPlayerScore( entity targetPlayer, string scoreEventName, entity
 		earnValue = 0.0
 		ownValue = 0.0
 	}
-
+	/*
 	#if DEV
 	printt( targetPlayer, "earnValue: ", earnValue )
 	printt( targetPlayer, "earnValue: ", ownValue )
 	printt( targetPlayer, "scale: ", scale )
 	#endif
-
+	*/
 	float BurnCardMultipler = GetPlayerXPMultipler( targetPlayer, event )
-
+	/*
 	#if DEV
 	printt( targetPlayer, "BurnCardMultipler: ", BurnCardMultipler )
 	printt( targetPlayer, "Final earnValue: ", earnValue * scale * BurnCardMultipler )
 	printt( targetPlayer, "Final ownValue: ", ownValue * scale * BurnCardMultipler )
 	#endif
-	
+	*/
 	PlayerEarnMeter_AddEarnedAndOwned( targetPlayer, earnValue * scale * BurnCardMultipler, ownValue * scale * BurnCardMultipler )
 	SharedEarnMeter_AddEarnedAndOwned( targetPlayer, earnValue, ownValue )
 	

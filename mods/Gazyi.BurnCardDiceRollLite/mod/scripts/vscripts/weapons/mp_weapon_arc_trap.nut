@@ -473,5 +473,4 @@ void function TrapDestroyOwnerDeath( entity trap, entity player )
 
 	WaitForever()
 }
-
 #endif

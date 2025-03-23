@@ -218,6 +218,9 @@ void function OnSonarTriggerLeave( entity trigger, entity ent )
 
 	if ( trigger.GetScriptName() == "SonarJammer" )
 	{
+		if ( !ent.e.sonarTriggers.contains( trigger ) )
+			return
+		
 		if ( file.entitySonarEMPHandles[ent].len() )
 		{
 			int statusEffectHandle = file.entitySonarEMPHandles[ent][0]

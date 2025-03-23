@@ -381,6 +381,9 @@ void function PlayerUsesAmpedWeaponsBurncardThreaded( entity player )
 		// Don't remove burn mods if player has permanent amped weapons boost.
 		entity weaponOwner = weapon.GetWeaponOwner()
 
+		if ( !IsValid( weaponOwner ) )
+			continue
+
 		if ( weaponOwner.IsPlayer() )
 		{
 			if ( !( "hasPermanentAmpedWeapons" in weaponOwner.s ) || !weaponOwner.s.hasPermanentAmpedWeapons )

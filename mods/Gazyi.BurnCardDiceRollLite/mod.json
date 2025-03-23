@@ -1,7 +1,7 @@
 {
     "Name": "Gazyi.BurnCardDiceRollLite",
     "Description": "Adds custom boosts to Dice Roll. Server-side version.",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "LoadPriority": 2,
     "Dependencies": 
     {
