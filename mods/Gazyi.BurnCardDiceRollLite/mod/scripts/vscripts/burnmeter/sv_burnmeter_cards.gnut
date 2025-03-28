@@ -574,20 +574,23 @@ void function SpawnBoostTurret( entity player, string itemRef )
 		array<vector> spawn_nodes
 		int node = GetNearestNodeToPos( player.GetOrigin() )
 
-		for ( int nodeIdx = 0; nodeIdx < nodeCount; nodeIdx++ )
+		if ( node != -1 )
 		{
-			if ( DistanceSqr( GetNodePos( node ), GetNodePos( nodeIdx ) ) <= 6400 )
+			for ( int nodeIdx = 0; nodeIdx < nodeCount; nodeIdx++ )
 			{
-				#if DEV
-				DebugDrawBoxSimple( GetNodePos( nodeIdx ), Vector(-30,-30,0), Vector(30,30,60), 100, 100, 0, 100, 10.0 )  
-				#endif
-
-				// Check for blocking
-				TraceResults traceResult = TraceHull( GetNodePos( nodeIdx ), GetNodePos( nodeIdx ), Vector(-30,-30,0), Vector(30,30,60), player, TRACE_MASK_SOLID | TRACE_MASK_SHOT, TRACE_COLLISION_GROUP_NONE )
-
-				if ( traceResult.hitEnt == null )
+				if ( DistanceSqr( GetNodePos( node ), GetNodePos( nodeIdx ) ) <= 6400 )
 				{
-					spawn_nodes.append( GetNodePos( nodeIdx ) )
+					#if DEV
+					DebugDrawBoxSimple( GetNodePos( nodeIdx ), Vector(-30,-30,0), Vector(30,30,60), 100, 100, 0, 100, 10.0 )  
+					#endif
+
+					// Check for blocking
+					TraceResults traceResult = TraceHull( GetNodePos( nodeIdx ), GetNodePos( nodeIdx ), Vector(-30,-30,0), Vector(30,30,60), player, TRACE_MASK_SOLID | TRACE_MASK_SHOT, TRACE_COLLISION_GROUP_NONE )
+
+					if ( traceResult.hitEnt == null )
+					{
+						spawn_nodes.append( GetNodePos( nodeIdx ) )
+					}
 				}
 			}
 		}
